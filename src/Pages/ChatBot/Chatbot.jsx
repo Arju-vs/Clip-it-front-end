@@ -8,7 +8,7 @@ import "./Chatbot.css";
 
 
 const fetchGameRecommendations = async (query) => {
-  const url = "http://localhost:4000/igdb/games";
+  const url = "https://clipit-back-end.onrender.com/igdb/games";
   const headers = { "Content-Type": "text/plain" };
 
   let body = `

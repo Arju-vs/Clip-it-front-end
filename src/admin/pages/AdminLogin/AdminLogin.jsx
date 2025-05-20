@@ -15,8 +15,8 @@ const AdminLogin = () => {
 
     try {
         const response = await adminLoginAPI(
-            { userName, password },  // ✅ Pass as reqBody
-            { "Content-Type": "application/json" } // ✅ Pass headers here
+            { userName, password },
+            { "Content-Type": "application/json" }
         );
         const data = response.data;
 
