@@ -108,7 +108,7 @@ const Auth = ({ insideRegister }) => {
                   {
                     insideRegister &&
                     <FloatingLabel controlId="floatingInputChannel" label="Channel Name" className="mb-3">
-                      <Form.Control value={userInput.channelName} onChange={e => setUserInput({ ...userInput, channelName: e.target.value })} type="text" placeholder="Channel Name" />
+                      <Form.Control value={userInput.channelName} onChange={e => setUserInput({ ...userInput, channelName: e.target.value })} type="text" placeholder="Channel Name" autoComplete='off' />
                     </FloatingLabel>
                   
                   }
