@@ -1,0 +1,7 @@
+.carousal{
+    margin-top: 70px;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+    z-index: 0;
+    background-size: cover;
+}

@@ -1,0 +1,195 @@
+.fullVideoPage{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    min-height: 100vh;
+    margin-top: 70px;
+} 
+
+.videoPage{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    margin-left: 275px;
+    margin-top: 70px;
+    min-height: 100vh;
+}
+
+.videoContent{
+    display: grid;
+    box-sizing: border-box;
+    gap: 30px;
+    grid-template-columns: 384px 384px 384px;
+    padding: 20px 100px 10px 10px;
+}
+
+.videoContentWithoutBar{
+    display: grid;
+    box-sizing: border-box;
+    gap: 40px;
+    grid-template-columns: 326px 326px 326px 326px ;
+    padding: 20px 0 10px 50px;
+}
+
+.vgamingContent{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    cursor: pointer;
+    height: 336px;
+}
+
+.vgameThumbnail{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    height: 216px;
+}
+
+.vgameThumbnailPic{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.vvidTimeLeft{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    padding: 3px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.vvidTimeRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    padding: 3px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.vgameTitleBox{
+    display: flex;
+    padding-top: 10px;
+}
+
+.vgameTitleProfile{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vgameProfilePic{
+    width: 100%;
+    height: 80%;
+    border-radius: 100%;
+}
+
+.vgameTitleBox_title{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.vgameVideoTitle{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.vgameVideoChannel{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(196, 196, 191);
+}
+
+
+.vgameVideoViews{
+    font-size: 14px;
+    color: rgb(217, 217, 216);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    position: relative;
+}
+
+.searchBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: white;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.searchBtn:hover {
+    transform: scale(1.5);
+}
+
+.searchInput {
+    width: 0;
+    opacity: 0;
+    padding: 8px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: width 0.4s ease-in-out, opacity 0.4s;
+    position: absolute;
+    right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* When showSearch is true, expand the input */
+.searchInput.show {
+    width: 300px;
+    opacity: 1;
+    background: white;
+    color: black;
+    padding-left: 10px;
+}
+
+.filterButtons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .filterBtn {
+    background-color: #222;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .filterBtn:hover {
+    background-color: #00d3f8;
+  }
+  
+  .filterBtn.active {
+    background-color: #00d3f8;
+    font-weight: bold;
+  }
+  

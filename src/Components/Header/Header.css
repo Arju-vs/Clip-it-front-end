@@ -1,0 +1,81 @@
+.navbar{
+    height: 70px;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: #000000;
+    box-shadow: 0 0 10px #00e5ff;
+    z-index: 1;
+}
+
+.navbar-left{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.navbarHamburger{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.logo{
+    color: #00d3f8;
+}
+
+.logotext{
+    text-decoration: none;
+    color: white;
+}
+
+.logo>.logotext:hover{
+   color: #00d3f8
+}
+
+
+.navbarHamburger:hover{
+    color: #00d3f8;
+}
+
+
+
+/* navbar-right */
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    color: white;
+}
+
+.navbar-right-logo{
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.bounce-icon {
+    animation: bounce 1s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+
+  

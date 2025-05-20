@@ -1,0 +1,23 @@
+.music-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 20px;
+    background: #00ff37;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .music-btn.playing {
+    background: #ff3333;
+  }
+  
+  .music-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+  }

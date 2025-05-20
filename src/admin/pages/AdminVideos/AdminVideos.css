@@ -1,0 +1,149 @@
+
+.table-sectionVideos {
+    max-width: 1200px;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 208, 255, 0.955);
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+}
+
+
+
+/* Scrollable Table */
+.table-sectionVideos {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+
+.thumbnail-img {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.delete-icon {
+    color: #ff4d4d;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.delete-icon:hover {
+    color: #cc0000;
+}
+
+
+
+
+.viewer-row td {
+    padding-left: 40px;
+}
+
+.viewer-header th {
+    padding-left: 40px;
+    background-color: #04082b;
+    color: white;
+}
+
+.viewers-list {
+    margin-left: 100px; /* Left margin for indentation */
+    padding: 10px;
+}
+
+
+.viewer-item {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.viewer-id {
+    font-weight: bold;
+    color: #555;
+}
+
+.viewer-name {
+    margin-left: 10px;
+    color: #333;
+}
+
+.fetch-viewers-btn {
+    background-color: #00ddff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.fetch-viewers-btn:hover{
+    color: #00ddff;
+    background-color: #000000;
+}
+
+/* Popup Styles */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-buttons {
+    margin-top: 15px;
+}
+
+.cancel-btn, .confirm-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.cancel-btn {
+    background: #ccc;
+    color: #333;
+}
+
+.confirm-btn {
+    background: #ff4d4d;
+    color: white;
+}
+
+.confirm-btn:hover {
+    background: #cc0000;
+}
+
+.cancel-btn:hover {
+    background: #bbb;
+}

@@ -1,0 +1,27 @@
+.fetch-comments-btn {
+    background-color: #00ddff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.show-replies-btn{
+    background-color: #00ddff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.reply-header{
+    background-color: #04082b;
+    color: white;
+}
+
+
+.reply-row{
+    background-color: #9fbcb5;
+}

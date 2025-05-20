@@ -1,0 +1,166 @@
+.fullVideoPage{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    min-height: 100vh;
+    margin-top: 70px;
+} 
+
+.videoPage{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    margin-left: 275px;
+    margin-top: 70px;
+    min-height: 100vh;
+}
+
+
+.vgamingContent{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    cursor: pointer;
+    height: 336px;
+}
+
+.vgameThumbnail{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    height: 216px;
+}
+
+.vgameThumbnailPic{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.vvidTimeLeft{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    padding: 3px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.vvidTimeRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    padding: 3px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.vgameTitleBox{
+    display: flex;
+    padding-top: 10px;
+}
+
+.vgameTitleProfile{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vgameProfilePic{
+    width: 100%;
+    height: 80%;
+    border-radius: 100%;
+}
+
+.vgameTitleBox_title{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.vgameVideoTitle{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.vgameVideoChannel{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(196, 196, 191);
+}
+
+
+.vgameVideoViews{
+    font-size: 14px;
+    color: rgb(217, 217, 216);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    position: relative;
+}
+
+.mainFilterBtn {
+    background-color: #00fbff;
+    color: rgb(0, 0, 0);
+    padding: 8px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .mainFilterBtn:hover {
+    background-color: #000000;
+    color: #00fbff;
+  }
+  
+  .filterButtons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .filterBtn {
+    background-color: #00c3ff;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .filterBtn:hover {
+    background-color: #000000;
+    color: #00c3ff;
+  }
+  
+  .filterBtn.active {
+    background-color: #ffffff;
+    font-weight: bold;
+    color: black;
+  }
+
+  .selectGameMessage{
+     color: #00ffff;
+  }
+  

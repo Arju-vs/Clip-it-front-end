@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.loading-container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .pacman{
+    margin-top: 500px;
+    width: 300px;
+  }
+
+  .modelText{
+    font-size: 40px;
+    cursor: pointer;
+    padding-top: 40px;
+    padding-right: 150px;
+    padding-left: 40px;
+    color: white;
+  }
+
+  .loginText{
+    background-color: rgba(0, 0, 0, 0.992);
+    color: white;
+    padding: 0 10px;
+  }
+
+  .button-55 {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: hsl(180, 100%, 50%) 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-55:focus {
+    text-decoration: none;
+  }
+  
+  .button-55:hover {
+    text-decoration: none;
+    background-color: rgba(0, 255, 208, 0.24);
+  }
+  
+  .button-55:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-55:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-55 {
+      padding: 12px 50px;
+    }
+  }
+  

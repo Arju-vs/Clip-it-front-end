@@ -1,0 +1,15 @@
+.workPage{
+    background-color: black;
+}
+
+.work-details-container {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.work-title {
+  color: #00ffff;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+

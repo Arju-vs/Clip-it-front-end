@@ -1,0 +1,7 @@
+.header, .navbar {
+  position: fixed; /* or relative if not scrolling */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f5f5f5; /* or whatever your header uses */
+}

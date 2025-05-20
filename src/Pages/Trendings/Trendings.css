@@ -1,0 +1,143 @@
+.fullTrendingPage{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    min-height: 100vh;
+    background: #000000e7;
+}
+
+.trendingPage{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    margin-left: 275px;
+    min-height: 100vh;
+    background: #000000e7;
+}
+
+.TrendingPVideosHeading{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.trendingP-card {
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.TPprofile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.Tprofile-wrapper {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.TPprofile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00ccff;
+}
+
+.Tcrown-icon {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: #FFD700;
+    font-size: 25px;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.TPvideo-container {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.trendingP1Thumbnail{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.trendingPThumbnail {
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.trendingPTitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.trendingPChannelName{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -10px;
+    color: white;
+}
+
+.trendingPViews {
+    margin-top: -10px;
+    font-size: 14px;
+    color: rgb(0, 17, 255);
+}
+
+.TrendingMoreHeading{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.TContent{
+    display: grid;
+    box-sizing: border-box;
+    gap: 80px;
+    grid-template-columns: 300px 300px 300px;
+    padding: 10px 100px 10px 80px;
+}
+
+.fullTContent{
+    display: grid;
+    box-sizing: border-box;
+    gap: 60px;
+    grid-template-columns: 300px 300px 300px 300px ;
+    padding: 10px 0 10px 50px;
+}
+
+.T1{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.TNo{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}

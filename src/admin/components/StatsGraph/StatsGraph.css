@@ -1,0 +1,17 @@
+.chart-container {
+    background: #fff;
+    padding: 40px;
+    margin: 20px 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 208, 255, 0.955);
+  }
+
+  .head01{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  h3 {
+    text-align: center;
+  }

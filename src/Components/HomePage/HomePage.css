@@ -1,0 +1,252 @@
+.fullHomePage{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.homePage{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    margin-left: 275px;
+    min-height: 100vh;
+}
+
+
+.homeContent{
+    display: grid;
+    box-sizing: border-box;
+    gap: 30px;
+    grid-template-columns: 384px 384px 384px 384px 384px;
+    padding: 10px 100px 10px 80px;
+}
+
+.homeContentWithoutBar{
+    display: grid;
+    box-sizing: border-box;
+    gap: 40px;
+    grid-template-columns: 384px 384px 384px 384px 384px;
+    padding: 10px 0 10px 50px;
+}
+
+.gamingContent{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    cursor: pointer;
+    height: 336px;
+}
+
+.gameThumbnail{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    height: 216px;
+}
+
+.gameThumbnailPic{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.vidTime{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    padding: 3px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.vidTimeLeft{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    padding: 3px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.vidTimeRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    padding: 3px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.gameTitleBox{
+    display: flex;
+    padding-top: 10px;
+}
+
+.gameTitleProfile{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameProfilePic{
+    width: 100%;
+    height: 80%;
+    border-radius: 100%;
+}
+
+.gameTitleBox_title{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.gameVideoTitle{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gameVideoChannel{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(196, 196, 191);
+}
+
+
+.gameVideoViews{
+    font-size: 14px;
+    color: rgb(217, 217, 216);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.latestVideosHeading {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tiltCards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.trending-card {
+    width: 800px;
+    background: #ffffffca;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.Tprofile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.profile-wrapper {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.Tprofile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00ccff;
+}
+
+.crown-icon {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: #FFD700;
+    font-size: 25px;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.Tvideo-container {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.trendingThumbnail {
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.trendingTitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.trendingChannelName{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.trendingViews {
+    margin-top: -10px;
+    font-size: 14px;
+    color: rgb(0, 17, 255);
+}
+
+.TNavigator{
+    text-decoration: overline;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.TNavigator:hover{
+    font-size: 15px;
+    color: rgb(0, 13, 255);
+}
+
+.hyperSpeed{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

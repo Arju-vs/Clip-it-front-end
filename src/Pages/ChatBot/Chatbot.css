@@ -1,0 +1,163 @@
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chatHead1{
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+
+.chatP {
+  font-size: 20px;
+  color: #ffffff;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+
+/* Chatbot Toggle Button */
+.chatbot-toggle {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.chatbot-toggle:hover {
+  background-color: #0056b3;
+}
+
+
+.chatbot-container {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 500px;
+  height: auto;
+  max-height: 80vh; /* Allow content to grow */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.react-chatbot-kit-chat-container{
+  width: 450px;
+  min-height: 500px;
+}
+/* Ensure chatbot messages container is set up for flexbox */
+.chatbot-messages {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  height: 100%;
+  overflow-y: auto;
+  gap: 10px;
+}
+
+/* Bot Message */
+.react-chatbot-kit-chat-bot-message {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+  margin-left: 0px;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: -200px; /* Space for the bot profile */
+}
+
+/* User Message */
+.react-chatbot-kit-user-chat-message {
+  background-color: #05f258;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+  align-self: flex-end; /* Right aligned */
+  margin-bottom: 8px;
+  position: relative;
+  padding-right: 50px; /* Space for the user profile */
+}
+
+
+.game-message {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  margin-bottom: 10px;
+}
+
+.game-cover {
+  width: 80%;  /* Adjust as needed */
+  height: auto;
+  margin-bottom: 8px;
+  margin-left: 18px;
+}
+
+.game-name {
+  font-size: 18px;  /* Adjust as needed */
+  text-align: center;
+}
+
+
+
+/* Header */
+.chatbot-header {
+  background-color: #0c1b7e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* Input Box */
+.chatbot-input {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.chatbot-input button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Fade In Effect */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
