@@ -13,7 +13,7 @@ import VideoUpload from './Pages/VideoUpload/VideoUpload'
 import MainP from './Pages/AllVideos/MainP'
 import Pnf from './Pages/Pnf'
 import Loading from './Components/Loading'
-import UserProfile from './Pages/Profiles/userProfile';
+import UserProfile from './Pages/Profiles/UserProfile';
 import Trendings from './Pages/Trendings/Trendings';
 import Category from './Pages/Category/Category'
 import AdminLogin from './admin/pages/AdminLogin/AdminLogin';
