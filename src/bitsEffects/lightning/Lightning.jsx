@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import "./Lightning.css";
+import "./lightning.css";
 
 const Lightning = ({
   hue = 230,
