@@ -1,5 +1,5 @@
 
 .auth{
-    background-image:url(authbg.jpg);
+    background-image:url('/authbg.jpg');
     background-size:contain;
   }
