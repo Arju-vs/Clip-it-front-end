@@ -1,5 +1,5 @@
 import { BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
-import './statsGraph.css'
+import './StatsGraph.css'
 import { useState,useEffect } from "react";
 import { adminStatsVideoAPI } from "../../../../services/allAPI";
 
