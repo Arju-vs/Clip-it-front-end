@@ -103,7 +103,7 @@ const Video = ({ sideNavbar }) => {
         try {
             const res = await addCommentAPI(body);
             const newComment = res.data.comment;
-    
+    ``
             const storedUser = JSON.parse(sessionStorage.getItem("user"));
             if (storedUser) {
                 newComment.user = {

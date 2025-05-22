@@ -110,10 +110,9 @@ const Auth = ({ insideRegister }) => {
                     <FloatingLabel controlId="floatingInputChannel" label="Channel Name" className="mb-3">
                       <Form.Control value={userInput.channelName} onChange={e => setUserInput({ ...userInput, channelName: e.target.value })} type="text" placeholder="Channel Name" autoComplete='off' />
                     </FloatingLabel>
-                  
                   }
                   <FloatingLabel controlId="floatingInput" label="Username" className="mb-3">
-                    <Form.Control value={userInput.userName} onChange={e => setUserInput({ ...userInput, userName: e.target.value })} type="text" placeholder="Username" />
+                    <Form.Control value={userInput.userName} onChange={e => setUserInput({ ...userInput, userName: e.target.value })} type="text" placeholder="Username" autoComplete='off' />
                   </FloatingLabel>
                   <FloatingLabel controlId="floatingPassword" label="Password" className="mb-3">
                     <Form.Control value={userInput.password} onChange={e => setUserInput({ ...userInput, password: e.target.value })} type="password" placeholder="Password" />
@@ -122,7 +121,7 @@ const Auth = ({ insideRegister }) => {
                     insideRegister ?
                       <div>
                         <FloatingLabel controlId="floatingInputAbout" label="About" className="mb-3">
-                          <Form.Control value={userInput.about} onChange={e => setUserInput({ ...userInput, about: e.target.value })} type="text" placeholder="desc" />
+                          <Form.Control value={userInput.about} onChange={e => setUserInput({ ...userInput, about: e.target.value })} type="text" placeholder="desc" autoComplete='off' />
                         </FloatingLabel>
                         <div className='d-flex ' style={{ color: 'black', }}>
                           Profile:

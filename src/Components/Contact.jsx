@@ -21,7 +21,7 @@ const handleSubmit = async (e) => {
   setResponseMessage(null);
 
   try {
-    const response = await addContactus(formData); // pass formData here
+    const response = await addContactus(formData);
     setResponseMessage({ type: "success", text: response.data.message });
     setFormData({ name: "", email: "", subject: "", message: "" });
   } catch (error) {
